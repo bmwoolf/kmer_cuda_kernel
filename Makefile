@@ -1,2 +1,2 @@
 all:
-	nvcc -o kmer main.cpp kmer.cu
+	nvcc -o kmer main.cpp kmer.cu -lcudart
